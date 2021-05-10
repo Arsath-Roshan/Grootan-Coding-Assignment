@@ -1,0 +1,151 @@
+@charset "ISO-8859-1";
+body, html {
+  height: 100%;
+}
+
+body{
+  /* The image used */
+  background-image: url("download.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#title
+{
+    color:darkblue;
+    background-color:white;
+    border: 3px solid darkblue;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 0 darkblue inset, 0 0 20px 2px darkblue;
+    position:absolute;
+    left:-240px;
+    top:-200px;
+    font-size:50px;
+}
+#title1
+{
+    color:darkblue;
+    background-color:white;
+    border: 3px solid darkblue;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 0 darkblue inset, 0 0 20px 2px darkblue;
+    position:absolute;
+    left:-600px;
+    top:75px;
+    font-size:50px;
+}
+#upload
+{
+    color:darkblue;
+    background-color:white;
+    border: 3px solid darkblue;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 0 darkblue inset, 0 0 20px 2px darkblue;
+    position:absolute;
+    left:-600px;
+    top:275px;
+    font-size:50px;
+}
+#csv_file
+{
+    color:darkblue;
+    background-color:white;
+    border: 3px solid darkblue;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 0 darkblue inset, 0 0 20px 2px darkblue;
+    position:absolute;
+    left:-600px;
+    top:200px;
+    font-size:30px;
+}
+.container{
+    position: absolute;
+    text-align:centre;
+    top:200px;
+    left:590px;
+    /*top: calc(50% - 75px);
+    left: calc(50% - 50px);*/
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+    z-index: 2;
+}
+#imported
+{
+    color:white;
+    font-size:50px;
+}
+#ans{
+    width: 250px;
+    height: 20px;
+    background: white;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: red;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    top:-500px;
+}
+#col-md-4
+{
+    color:white;
+    background-color:red;
+    border: 3px solid white;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 0  white inset, 0 0 20px 2px white;
+    position:absolute;
+    left:10px;
+    top:300px;
+    font-size:30px;
+}
+.container input[type=text]{
+    width: 250px;
+    height: 30px;
+    background: white;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: red;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+}
+.container input[type=email]{
+    width: 250px;
+    height: 30px;
+    background: white;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: red;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+}
+.container input[type=password]{
+    width: 250px;
+    height: 30px;
+    background: white;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: red;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+}
+.container input[type=text]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+.container input[type=password]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
